@@ -1,0 +1,39 @@
+body {
+    color: #d1d1d1;
+    background: #000000;
+}
+
+center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video {
+    width: 800px;
+    height: 0;
+    border: 0;
+    transition: height 1s ease-in-out 0s;
+}
+
+.opened {
+    height: 600px;
+}
+
+.gen {
+    border-radius: 10px;
+    border: 1;
+    border-color: #0a0a61;
+    outline: none;
+    width: 15em;
+    background-color: #222288;
+    color: #d1d1d1;
+    padding: 10px;;
+    transition: background-color border-color 0.1s ease-in-out 0s;
+}
+
+.gen:hover {
+    background-color: #4545bd;
+    border-color: #1d1dbb;
+}
